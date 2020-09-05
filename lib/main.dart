@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_detailsincard/First.dart';
+import 'package:flutter_detailsincard/pages/first.dart';
 
 void main(){
   runApp(MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
           ),
           title: Center(child: Text("Students App")),
         ),
-        body: First(),
+        body: Firzt(),
       ),
     );
   }
